@@ -11,6 +11,10 @@
     <Title>EntityFramework.FluentHelper</Title>
     <Authors>Andrea Pittaluga</Authors>
     <Copyright>Copyright © Andrea Pittaluga 2019</Copyright>
+    <Description>A simplified way to test EntityFramework.FluentHelper projects</Description>
+    <PackageProjectUrl>https://github.com/MrSeekino/EntityFramework.FluentHelper.Moq</PackageProjectUrl>
+    <PackageLicenseUrl>https://raw.githubusercontent.com/MrSeekino/EntityFramework.FluentHelper.Moq/master/LICENSE</PackageLicenseUrl>
+    <PackageTags>EntityFramework</PackageTags>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
