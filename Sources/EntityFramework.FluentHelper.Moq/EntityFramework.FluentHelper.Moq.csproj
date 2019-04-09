@@ -7,7 +7,7 @@
     <RootNamespace>EntityFramework.FluentHelper.Moq</RootNamespace>
     <AssemblyName>EntityFramework.FluentHelper.Moq</AssemblyName>
     <TargetFrameworks>net45;net46;net47</TargetFrameworks>
-    <PackageId>EntityFramework.FluentHelper.Moq</PackageId>
+    <PackageId>FluentHelper.EntityFramework.Moq</PackageId>
     <Title>EntityFramework.FluentHelper</Title>
     <Authors>Andrea Pittaluga</Authors>
     <Copyright>Copyright © Andrea Pittaluga 2019</Copyright>
