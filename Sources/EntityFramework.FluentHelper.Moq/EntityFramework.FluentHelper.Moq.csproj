@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <ProjectGuid>{D7C5783F-02E9-4F47-B138-EA9917A9870F}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>EntityFramework.FluentHelper.Moq</RootNamespace>
+    <AssemblyName>EntityFramework.FluentHelper.Moq</AssemblyName>
+    <TargetFrameworks>net45;net46;net47</TargetFrameworks>
+    <PackageId>EntityFramework.FluentHelper</PackageId>
+    <Title>EntityFramework.FluentHelper</Title>
+    <Authors>Andrea Pittaluga</Authors>
+    <Copyright>Copyright © Andrea Pittaluga 2019</Copyright>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Properties\" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="FluentHelper.EntityFramework" Version="1.0.0" />
+    <PackageReference Include="Moq" Version="4.2.1409.1722" />
+  </ItemGroup>
+</Project>
