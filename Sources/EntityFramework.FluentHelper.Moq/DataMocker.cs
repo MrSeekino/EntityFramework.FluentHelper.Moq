@@ -19,6 +19,16 @@ namespace EntityFramework.FluentHelper.Moq
             RemoveList = new List<T>();
         }
 
+        public int AddListCount()
+        {
+            return AddList.Count;
+        }
+
+        public int RemoveListCount()
+        {
+            return RemoveList.Count;
+        }
+
         public IQueryable<T> GetAll()
         {
             return FinalList.AsQueryable();
@@ -57,7 +67,12 @@ namespace EntityFramework.FluentHelper.Moq
             }
 
             foreach (var removeItem in RemoveList)
+            {
+                if (!FinalList.Any(x => x.Equals(removeItem)))
+                    throw new Exception("Cannot remove items that are not in the list");
+
                 FinalList.Remove(removeItem);
+            }
 
             AddList.Clear();
             RemoveList.Clear();

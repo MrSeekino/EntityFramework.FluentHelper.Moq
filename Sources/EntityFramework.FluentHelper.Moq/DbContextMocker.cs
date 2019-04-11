@@ -36,7 +36,11 @@ namespace EntityFramework.FluentHelper.Moq
             MockContext.Setup(c => c.Remove(It.IsAny<T>())).Callback<T>(x => ((IDataMocker<T>)MockData[typeof(T)]).Remove(x));
             MockContext.Setup(c => c.RemoveRange(It.IsAny<IEnumerable<T>>())).Callback<IEnumerable<T>>(x => ((IDataMocker<T>)MockData[typeof(T)]).RemoveRange(x));
 
-            MockContext.Setup(c => c.SaveChanges()).Callback(() => MockData[typeof(T)].SaveChanges());
+            MockContext.Setup(c => c.SaveChanges()).Callback(() =>
+            {
+                foreach (var mockData in MockData)
+                    mockData.Value.SaveChanges();
+            });
         }
     }
 }

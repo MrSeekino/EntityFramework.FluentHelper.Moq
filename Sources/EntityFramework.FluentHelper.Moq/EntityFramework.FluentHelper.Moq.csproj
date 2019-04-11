@@ -15,6 +15,7 @@
     <PackageProjectUrl>https://github.com/MrSeekino/EntityFramework.FluentHelper.Moq</PackageProjectUrl>
     <PackageLicenseUrl>https://raw.githubusercontent.com/MrSeekino/EntityFramework.FluentHelper.Moq/master/LICENSE</PackageLicenseUrl>
     <PackageTags>EntityFramework</PackageTags>
+    <Version>1.0.1</Version>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
