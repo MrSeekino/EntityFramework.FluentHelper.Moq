@@ -1,15 +1,15 @@
-EntityFramework.FluentHelper.Moq
+EntityFramework.FluentHelper.Moq & EntityFramework.FluentHelperCore.Moq
 =====================
-EntityFramework.FluentHelper.Moq is an extension for EntityFramework.FluentHelper allowing an easier way to test projects made with it.
+EntityFramework.FluentHelper.Moq and EntityFramework.FluentHelperCore.Moq are extensions for EntityFramework.FluentHelper/EntityFramework.FluentHelperCore allowing an easier way to test projects made with them.
 
 Latest Version
 --------------
-The best and quickest way to get the latest release of EntityFramework.FluentHelper.Moq is to add it to your project using 
-NuGet (<https://www.nuget.org/packages/FluentHelper.EntityFramework.Moq>).
+The best and quickest way to get the latest release of EntityFramework.FluentHelper.Moq or EntityFramework.FluentHelperCore.Moq is to add it to your project using 
+NuGet (<https://www.nuget.org/packages/FluentHelper.EntityFramework.Moq>) or (<https://www.nuget.org/packages/FluentHelperCore.EntityFramework.Moq>).
 
-Please note that the nuget package is called "FluentHelper.EntityFramework.Moq" and not "EntityFramework.FluentHelper.Moq"
+Please note that the nuget package are called "FluentHelper.EntityFramework.Moq"/"FluentHelperCore.EntityFramework.Moq" and not "EntityFramework.FluentHelper.Moq"/"EntityFramework.FluentHelperCore.Moq"
 
-Alternatively binaries can be builded by opening "EntityFramework.FluentHelper.sln" available in current repository under [Sources](https://github.com/MrSeekino/EntityFramework.FluentHelper.Moq/tree/master/Sources) folder
+Alternatively binaries can be builded by opening "EntityFramework.FluentHelper.sln"/"EntityFramework.FluentHelperCore.sln" available in current repository under [Sources](https://github.com/MrSeekino/EntityFramework.FluentHelper.Moq/tree/master/Sources) folder
 
 Bug Reports
 -----------
