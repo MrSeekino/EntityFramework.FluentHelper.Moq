@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 
-namespace EntityFramework.FluentHelper.Moq
+namespace FluentHelper.EntityFramework.Moq
 {
     class DataMocker<T> : IDataMocker<T> where T : class
     {

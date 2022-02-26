@@ -1,9 +1,9 @@
-﻿using EntityFramework.FluentHelper.Interfaces;
+﻿using FluentHelper.EntityFramework.Interfaces;
 using Moq;
 using System;
 using System.Collections.Generic;
 
-namespace EntityFramework.FluentHelper.Moq
+namespace FluentHelper.EntityFramework.Moq
 {
     public class DbContextMocker
     {

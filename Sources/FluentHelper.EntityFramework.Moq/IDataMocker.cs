@@ -1,7 +1,7 @@
 ﻿using System.Collections.Generic;
 using System.Linq;
 
-namespace EntityFramework.FluentHelper.Moq
+namespace FluentHelper.EntityFramework.Moq
 {
     interface IDataMocker
     {
